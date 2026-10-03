@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title data-i18n="pesquisa.0">Pesquisa | Como a tecnologia influencia o nosso cotidiano?</title>
+<link href="style.css" rel="stylesheet"/>
+<script defer src="idioma.js"></script></head>
+<body>
+<header class="topo">
+<div class="container">
+<a aria-label="Página inicial" class="logo" href="index.html"><img alt="aa" src="logo.png"/></a>
+<nav aria-label="Principal" class="menu">
+<a data-i18n="c.0" href="index.html">Início</a>
+<a data-i18n="c.1" href="sociedade.html">Sociedade</a>
+<a data-i18n="c.7" href="comunicacao.html">Comunicação</a>
+<a data-i18n="c.2" href="consumo.html">Consumo</a>
+<a data-i18n="c.3" href="relacoes.html">Relações</a>
+<a data-i18n="c.4" href="impactos.html">Impactos</a>
+<a aria-label="Switch to English" class="idioma" href="#">EN</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="hero curto">
+<div class="container">
+<div class="entra">
+<a class="voltar" data-i18n="c.5" href="index.html"><span>←</span> Voltar para a primeira página</a><br/>
+<span class="etiqueta" data-i18n="c.6">Tecnologia &amp; Sociedade</span>
+<h1 data-i18n="pesquisa.1">Como a tecnologia influencia o nosso cotidiano?</h1>
+<p data-i18n="pesquisa.2">Responda às perguntas abaixo e ajude-nos a entender como a tecnologia está presente na vida das pessoas.</p>
+</div>
+</div>
+</section>
+<section class="secao" id="pesquisa">
+<div class="container">
+<form class="formulario" id="form-pesquisa">
+<fieldset class="pergunta-q">
+<legend><span class="num">1</span><span data-i18n="pesquisa.5">Qual é a sua faixa etária?</span></legend>
+<div class="opcoes">
+<label><input type="radio" name="q1" value="Até 12 anos" required/><span data-i18n="pesquisa.6">Até 12 anos</span></label>
+<label><input type="radio" name="q1" value="13 a 17 anos"/><span data-i18n="pesquisa.7">13 a 17 anos</span></label>
+<label><input type="radio" name="q1" value="18 a 24 anos"/><span data-i18n="pesquisa.8">18 a 24 anos</span></label>
+<label><input type="radio" name="q1" value="25 a 34 anos"/><span data-i18n="pesquisa.9">25 a 34 anos</span></label>
+<label><input type="radio" name="q1" value="35 a 49 anos"/><span data-i18n="pesquisa.10">35 a 49 anos</span></label>
+<label><input type="radio" name="q1" value="50 anos ou mais"/><span data-i18n="pesquisa.11">50 anos ou mais</span></label>
+</div>
+</fieldset>
+<fieldset class="pergunta-q">
+<legend><span class="num">2</span><span data-i18n="pesquisa.12">Qual dispositivo você mais utiliza no dia a dia?</span></legend>
+<div class="opcoes">
+<label><input type="radio" name="q2" value="Celular" required/><span data-i18n="pesquisa.13">Celular</span></label>
+<label><input type="radio" name="q2" value="Computador/Notebook"/><span data-i18n="pesquisa.14">Computador/Notebook</span></label>
+<label><input type="radio" name="q2" value="Tablet"/><span data-i18n="pesquisa.15">Tablet</span></label>
+<label><input type="radio" name="q2" value="Televisão"/><span data-i18n="pesquisa.16">Televisão</span></label>
+<label><input type="radio" name="q2" value="Outro" data-outro/><span data-i18n="pesquisa.17">Outro</span></label>
+</div>
+<div class="outro-campo" hidden><input type="text" name="q2_outro" aria-label="Qual?" placeholder="Qual?" data-i18n-ph="pesquisa.3"/></div>
+</fieldset>
+<fieldset class="pergunta-q">
+<legend><span class="num">3</span><span data-i18n="pesquisa.18">Para qual finalidade você mais utiliza a tecnologia?</span></legend>
+<div class="opcoes">
+<label><input type="radio" name="q3" value="Estudar" required/><span data-i18n="pesquisa.19">Estudar</span></label>
+<label><input type="radio" name="q3" value="Trabalhar"/><span data-i18n="pesquisa.20">Trabalhar</span></label>
+<label><input type="radio" name="q3" value="Comunicação"/><span data-i18n="pesquisa.21">Comunicação</span></label>
+<label><input type="radio" name="q3" value="Entretenimento"/><span data-i18n="pesquisa.22">Entretenimento</span></label>
+<label><input type="radio" name="q3" value="Compras"/><span data-i18n="pesquisa.23">Compras</span></label>
+<label><input type="radio" name="q3" value="Redes sociais"/><span data-i18n="pesquisa.24">Redes sociais</span></label>
+<label><input type="radio" name="q3" value="Outro" data-outro/><span data-i18n="pesquisa.25">Outro</span></label>
+</div>
+<div class="outro-campo" hidden><input type="text" name="q3_outro" aria-label="Qual?" placeholder="Qual?" data-i18n-ph="pesquisa.3"/></div>
+</fieldset>
+<fieldset class="pergunta-q">
+<legend><span class="num">4</span><span data-i18n="pesquisa.26">A tecnologia mudou a forma como você estuda ou aprende?</span></legend>
+<div class="opcoes">
+<label><input type="radio" name="q4" value="Sim, mudou muito" required/><span data-i18n="pesquisa.27">Sim, mudou muito</span></label>
+<label><input type="radio" name="q4" value="Sim, mudou um pouco"/><span data-i18n="pesquisa.28">Sim, mudou um pouco</span></label>
+<label><input type="radio" name="q4" value="Não mudou"/><span data-i18n="pesquisa.29">Não mudou</span></label>
+<label><input type="radio" name="q4" value="Não utilizo tecnologia para estudar"/><span data-i18n="pesquisa.30">Não utilizo tecnologia para estudar</span></label>
+</div>
+</fieldset>
+<fieldset class="pergunta-q">
+<legend><span class="num">5</span><span data-i18n="pesquisa.31">Com que frequência você realiza compras pela internet?</span></legend>
+<div class="opcoes">
+<label><input type="radio" name="q5" value="Nunca" required/><span data-i18n="pesquisa.32">Nunca</span></label>
+<label><input type="radio" name="q5" value="Raramente"/><span data-i18n="pesquisa.33">Raramente</span></label>
+<label><input type="radio" name="q5" value="Às vezes"/><span data-i18n="pesquisa.34">Às vezes</span></label>
+<label><input type="radio" name="q5" value="Frequentemente"/><span data-i18n="pesquisa.35">Frequentemente</span></label>
+<label><input type="radio" name="q5" value="Sempre que possível"/><span data-i18n="pesquisa.36">Sempre que possível</span></label>
+</div>
+</fieldset>
+<fieldset class="pergunta-q">
+<legend><span class="num">6</span><span data-i18n="pesquisa.37">Você acha que a tecnologia influencia suas decisões de compra?</span></legend>
+<div class="opcoes">
+<label><input type="radio" name="q6" value="Sim, bastante" required/><span data-i18n="pesquisa.38">Sim, bastante</span></label>
+<label><input type="radio" name="q6" value="Sim, um pouco"/><span data-i18n="pesquisa.39">Sim, um pouco</span></label>
+<label><input type="radio" name="q6" value="Pouco"/><span data-i18n="pesquisa.40">Pouco</span></label>
+<label><input type="radio" name="q6" value="Não influencia"/><span data-i18n="pesquisa.41">Não influencia</span></label>
+<label><input type="radio" name="q6" value="Não sei dizer"/><span data-i18n="pesquisa.42">Não sei dizer</span></label>
+</div>
+</fieldset>
+<fieldset class="pergunta-q">
+<legend><span class="num">7</span><span data-i18n="pesquisa.43">Qual área da sua vida foi mais transformada pela tecnologia?</span></legend>
+<div class="opcoes">
+<label><input type="radio" name="q7" value="Comunicação" required/><span data-i18n="pesquisa.44">Comunicação</span></label>
+<label><input type="radio" name="q7" value="Educação"/><span data-i18n="pesquisa.45">Educação</span></label>
+<label><input type="radio" name="q7" value="Trabalho"/><span data-i18n="pesquisa.46">Trabalho</span></label>
+<label><input type="radio" name="q7" value="Entretenimento"/><span data-i18n="pesquisa.47">Entretenimento</span></label>
+<label><input type="radio" name="q7" value="Compras"/><span data-i18n="pesquisa.48">Compras</span></label>
+<label><input type="radio" name="q7" value="Relações sociais"/><span data-i18n="pesquisa.49">Relações sociais</span></label>
+<label><input type="radio" name="q7" value="Outra" data-outro/><span data-i18n="pesquisa.50">Outra</span></label>
+</div>
+<div class="outro-campo" hidden><input type="text" name="q7_outro" aria-label="Qual?" placeholder="Qual?" data-i18n-ph="pesquisa.3"/></div>
+</fieldset>
+<fieldset class="pergunta-q">
+<legend><span class="num">8</span><span data-i18n="pesquisa.51">Na sua opinião, qual foi a principal mudança causada pela tecnologia na sociedade?</span></legend>
+<textarea name="q8" rows="4" aria-label="Na sua opinião, qual foi a principal mudança causada pela tecnologia na sociedade?" placeholder="Escreva sua resposta aqui" data-i18n-ph="pesquisa.4"></textarea>
+</fieldset>
+<fieldset class="pergunta-q">
+<legend><span class="num">9</span><span data-i18n="pesquisa.52">Você considera que a tecnologia trouxe mais benefícios ou desafios para a sociedade?</span></legend>
+<div class="opcoes">
+<label><input type="radio" name="q9" value="Principalmente benefícios" required/><span data-i18n="pesquisa.53">Principalmente benefícios</span></label>
+<label><input type="radio" name="q9" value="Principalmente desafios"/><span data-i18n="pesquisa.54">Principalmente desafios</span></label>
+<label><input type="radio" name="q9" value="Trouxe benefícios e desafios"/><span data-i18n="pesquisa.55">Trouxe benefícios e desafios</span></label>
+<label><input type="radio" name="q9" value="Não sei dizer"/><span data-i18n="pesquisa.56">Não sei dizer</span></label>
+</div>
+</fieldset>
+<fieldset class="pergunta-q">
+<legend><span class="num">10</span><span data-i18n="pesquisa.57">Como você imagina que a tecnologia vai influenciar a sociedade no futuro?</span></legend>
+<textarea name="q10" rows="4" aria-label="Como você imagina que a tecnologia vai influenciar a sociedade no futuro?" placeholder="Escreva sua resposta aqui" data-i18n-ph="pesquisa.4"></textarea>
+</fieldset>
+<button class="botao" type="submit" data-i18n="pesquisa.58">Enviar respostas</button>
+</form>
+<div class="obrigado" id="obrigado" hidden>
+<span class="etiqueta" data-i18n="pesquisa.59">Após responder</span>
+<h2 class="titulo" data-i18n="pesquisa.60">Obrigado por participar!</h2>
+<a class="botao" data-i18n="impactos.43" href="index.html">Início →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="rodape"><div class="container" data-i18n="c.6">Tecnologia &amp; Sociedade</div></footer>
+<script>
+var form=document.getElementById('form-pesquisa');
+form.addEventListener('change',function(e){
+  var fs=e.target.closest('fieldset');if(!fs)return;
+  var campo=fs.querySelector('.outro-campo');if(!campo)return;
+  var marcado=fs.querySelector('input[data-outro]:checked');
+  campo.hidden=!marcado;
+  if(marcado)campo.querySelector('input').focus();
+});
+form.addEventListener('submit',function(e){
+  e.preventDefault();
+  form.hidden=true;
+  var o=document.getElementById('obrigado');
+  o.hidden=false;
+  o.scrollIntoView({behavior:'smooth',block:'center'});
+});
+</script>
+</body>
+</html>
